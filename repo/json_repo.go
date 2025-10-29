@@ -7,3 +7,7 @@ type InventoryRepo interface {
 	GetAllItems() ([]model.Item, error)
 	FindBySKU(sku string) (*model.Item, error)
 }
+
+func () SaveItem(item model.Item) error {
+	
+}
